@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta   charset="UTF-8">
+        <!--<meta http-equiv="refresh" content="1" >-->
+        <meta   name="viewport"       content="device-width, initial-scale=1.0">
+        <meta   name="description"    content="Working in the field of process automation to upgrade the Industries with Technological Innovations & to improvise overall Efficiency">
+        <meta   name="keywords"       content="FCIPL, FCI, Feniks, Feniks Control Instruments">
+        <title>FCIPL</title>
+        <link   rel="icon"            href="img/icon.png"     type="image/png">
+        <link   href="styles/styles.css"     rel="stylesheet">
+        <script src="script/scripts.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <div id="navbar">
+            <ul type="none">
+                <li><a href="#home">        Home            </a></li>
+                <li><a href="#about">       About US        </a></li>
+                <li><a href="#do">          What We Do?     </a></li>
+                <li><a href="#customers">   Key Customers   </a></li>
+                <li><a href="#contact">     Contact Us      </a></li>
+            </ul>
+        </div>
+    
+        <div id="home">
+        <main>
+            <table>
+                <tr>
+                    <td id="bgimg" style="background-image: url(img/BG.png);">
+                        <h1 style="font-size: 5vw;">Feniks Control Instruments <br> Pvt. Ltd.</h1><br>
+                        <h5>'Precise - Accurate - Certain'</h5>
+                    </td>
+                    <td>
+                        <img src="img/logo.png" alt="Feniks Control Instruments">
+                    </td>
+                </tr>
+            </table>
+        </main>
+        </div>
+
+        <div id="about">
+            <header>About Us</header>
+            <p>FCIPL founded in the year 2017 by a group of Core Engineers formerly working in the field of process automation, with the view for upgrading the Industries with Technological Innovations which drive to the overall Efficiency and Improvement.</p>
+            <p>Our Core driving initiative points in providing complete solutions in test and measurement instrumentation and transforming the test and measurement industry to a different level where the quality and performance can be felt on fingertips.</p>
+        </div>
+
+        <div id="do">
+            <header>What We Do?</header><br>
+            <ul type="none">
+                <li><img src="img/do1.png" alt="Automation"></li>
+                <li><img src="img/do2.png" alt="Softwares"></li>
+                <li><img src="img/do3.png" alt="Test & Calibration Benches"></li>
+                <li><img src="img/do4.png" alt="Work & ESD Benches"></li>
+                <li><img src="img/do5.png" alt="Programmable Power Supplies"></li>
+                <li><img src="img/do6.png" alt="Integral Services"></li>
+            </ul>
+        </div>
+
+        <div id="customers">
+            <header>Our Key Customers</header>
+            <ul type="circle">
+                <li>FLUKE                   </li>
+                <li>YOKOGAWA                </li>
+                <li>ABB                     </li>
+                <li>BHEL                    </li>
+                <li>NPCIL                   </li> 
+                <li>NTPC                    </li>
+                <li>KPTCL                   </li>
+                <li>RRVUN                   </li>
+                <li>EDUCATIONAL INSTITUTIONS</li>
+            </ul>
+        </div>
+
+        <div id="contact">
+            <header>To Contact US</header>
+            <div>
+                <form>
+                    <a href="#contact" id="contactButton">
+                    <input type="button"  onclick="openForm()" value="Click Here">
+                    </a>
+                </form>
+            </div>
+
+            <div id="popForm" style="display: none;">
+                <h5>Please fill the details below</h5>
+                <form action="php/mail.php" method="post">
+                    <input type="text"      name="Name"         placeholder="Name" autofocus required><br>
+                    <input type="text"      name="Company"      placeholder="Company"   required><br>
+                    <input type="email"     name="E-mail"       placeholder="E-mail"    required><br>
+                    <input style="height: 50px" type="text"      name="Message"      placeholder="Message"><br>
+                    <input class="formButton" type="submit" value="Submit">
+                    <input class="formButton" type="reset" value="Clear"><br>
+                    <input type="button"    onclick="closeForm()" value="Close">
+                </form>
+            </div>
+
+            <div id="contactInfo" style="display: none">
+                <table>
+                    <tr><h5>To Reach US</h5></tr>
+                    <tr>
+                        <td>Mail us @ <a href="mailto:info@feniks.co.in">info@feniks.co.in</a></td>
+                        <td>or</td>
+                        <td>Call us on <a href="tel:+919148578323">+91 914 857 8323</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            Feniks Control Instruments Private Limited
+        </footer>
+    </body>
+</html>

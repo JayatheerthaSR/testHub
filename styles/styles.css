@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: 10px;
+    scrollbar-color: #050A30 white;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:white;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10195a;
+    border-radius: 8px;
+    border: 2px solid white;
+    transition: 1s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #050A30;
+    transition: 1s;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+    background: white;
+    transition: 1s;
+}
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #050A30;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    background-color: rgb(41, 51, 82);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 6px;
+    border: 0;
+    width: 280px;
+    
+}
+
+input:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color:#050A30;
+}
+
+input:active {
+    color: red;
+    border: 0;
+}
+
+input:not(:focus) {
+    transition: 0.5s;
+}
+
+input:focus {
+    background-color: #050A30;
+    cursor: none;
+    outline: 0;
+    transition: 0.5s;
+    color:white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 3px;
+    font-size: small;
+}
+
+a:hover {
+    color: #050A30;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    padding:2px 20px;
+    border-radius: 2px;
+}
+
+a:active {
+    color: red;
+}
+
+table {
+    width: 100%;
+}
+
+header {
+    border-top: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+p {
+    text-align: justify;
+    padding: 0 5% 20px 5%;
+}
+
+#navbar ul {
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+#home td {
+    width: 50vw;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
+
+#do li {
+    width: 190px;
+    padding: 20px 10px;
+}
+
+#do ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#customers ul {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+}
+
+#customers li {
+    width: 15ch;
+    padding: 15px;
+}
+
+#contactButton:hover, #contactButton:not(:hover) {
+    color: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: none;
+    padding:0;
+    border-radius: none;
+    transition: 0s;
+}
+#contact {
+    text-align: center;
+}
+#popForm {
+    width:fit-content;
+    background-color: rgb(4, 0, 44);
+    padding: 30px;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.formButton {
+    width: 158px;
+}
+
+#contactInfo {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-image: linear-gradient(rgb(0,0,0,0), white);
+    width: 100%;
+    color:#050A30;
+    font-weight: bold;
+    padding: 10px;
+    left: 0;
+    right: 0;
+}
