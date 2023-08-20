@@ -27,9 +27,9 @@ $mail->Password = "XZ1gtxFq0n6hzavm";
 $mail->SMTPSecure = "tls";                       
 //Set TCP port to connect to
 $mail->Port = 587;                    
-$mail->From = "sarvagnasr@gmail.com";
-$mail->FromName = "Sarvagna S Rao";
-$mail->addAddress("rao.jayatheertha@gmail.com", "FCIPL");
+$mail->From = "info@feniks.co.in";
+$mail->FromName = "FCIPLwebMailer";
+$mail->addAddress("ajaysrao5@gmail.com@gmail.com", "Ajay");
 $mail->isHTML(true);
 $mail->Subject = "New Form! AutomailerDoNotReply!";
 $mail->Body = "New Entry detected<br><br>
